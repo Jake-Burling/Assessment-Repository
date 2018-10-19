@@ -1,0 +1,10 @@
+package com.qa.assessment;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CreateUserPage {
+	ChromeDriver driver;
+	
+	@FindBy()
+
+}

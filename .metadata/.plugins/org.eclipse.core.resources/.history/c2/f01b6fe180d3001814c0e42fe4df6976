@@ -1,0 +1,11 @@
+package com.qa;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+
+@RunWith(Cumumber.class)
+@CucumberOptions(features = "/FridayAssessment/src/test/java/com/qa/FridayAssessment (no Email Box).feature")
+public class AssessmentRunner {
+
+}

@@ -1,0 +1,28 @@
+package com.qa.assessment;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.FindBy;
+
+public class CreateUserPage {
+	ChromeDriver driver;
+	
+	@FindBy(id = "username")
+	private WebElement userName;
+	@FindBy(name = "password")
+	private WebElement password;
+	@FindBy(name = "password2")
+	private WebElement password2;
+	@FindBy(name = "fullname")
+	private WebElement fullname;
+	@FindBy(name = "email")
+	private WebElement email;
+
+	public void createUser(String name, String passWord, String fullName, String eMail) {
+		userName.sendKeys(name);
+		password.sendKeys(passWord);
+		password2.sendKeys(passWord);
+		fullname.sendKeys(fullName);
+		email.sendKeys(eMail);
+	}
+}

@@ -1,0 +1,8 @@
+java.lang.AssertionError: expected:<false> but was:<true>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.qa.assessment.Steps.the_Username_should_be_visible_on_the_UsersScreen(Steps.java:75)
+	at ?.Then the Username should be visible on the UsersScreen(C:/Users/Admin/Desktop/Assessment/FridayAssessment/src/test/java/com/qa/assessment/FridayAssessment (no Email Box).feature:10)
+
